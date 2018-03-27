@@ -6,9 +6,13 @@ fetch(url, {
 	mode: 'no-cors'
 })
 .then(function(response) {
-	kudo = response.body();
-	console.log(kudo);
-	return kudo;
+	if(response.bodyUsed) {
+		kudo = response.text();
+		console.log(kudo);
+		return kudo;
+	} else {
+		console.log("body not used");
+	}
 }).catch(function(error) {
 	console.log(error);
 	return "could not find kudo commit at "+url;
