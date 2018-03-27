@@ -9,8 +9,9 @@ fetch(url, {
 	return response.json();
 }).then(function(json) {
 	kudoJSON = JSON.stringify(json);
-	console.log("json is: "+kudoJSON);
-	return kudoJSON;
+	console.log("full json is: "+kudoJSON);
+	console.log("commit message is: "+json.commit["message"]);
+	document.getElementById('kudo').innerHTML = json.commit.message;
 }).catch(function(error) {
 	console.log(error);
 	return "could not find kudo commit at "+url;
