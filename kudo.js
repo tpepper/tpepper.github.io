@@ -6,7 +6,7 @@ fetch(url, {
 	mode: 'no-cors'
 })
 .then(function(response) {
-	return response.text();
+	document.Write(response.text());
 }).catch(function(error) {
 	console.log(error);
 	return "could not find kudo commit at "+url;
