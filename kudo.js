@@ -9,11 +9,13 @@ fetch(url, {
 	return response.blob();
 })
 .then(function(kudoBlob) {
-	var div = document.createElement("div");
 	var kudoText = document.createTextNode(kudoBlob);
-	console.log(kudoText);
-	div.appendChild(kudoText);
-	document.appendChild(div);
+	const reader = new FileReader();
+	reader.addEventListener('loadend', (e) => {
+		const kudoText = e.srcElement.result;
+		console.log(kudoText);
+	});
+	reader.readAsText(kudoBlob);
 }).catch(function(error) {
 	console.log(error);
 	return "could not find kudo commit at "+url;
