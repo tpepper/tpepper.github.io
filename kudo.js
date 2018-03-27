@@ -6,7 +6,7 @@ fetch(url, {
 	mode: 'no-cors'
 })
 .then(function(response) {
-	kudo = Body.text();
+	kudo = response.body();
 	console.log(kudo);
 	return kudo;
 }).catch(function(error) {
