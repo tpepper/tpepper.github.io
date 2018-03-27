@@ -13,6 +13,7 @@ fetch(url, {
 	reader.onload = function(e) {
 		console.log(e.target.result);
 	};
+	reader.readAsText(kudoBlob);
 }).catch(function(error) {
 	console.log(error);
 	return "could not find kudo commit at "+url;
