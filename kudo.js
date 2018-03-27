@@ -9,9 +9,11 @@ fetch(url, {
 	return response.blob();
 })
 .then(function(kudoBlob) {
-	const reader = new FileReader();
+	console.log("Blob size: "+kudoBlob.size);
+	console.log("Blob type: "+kudoBlob.type);
+	reader = new FileReader();
 	reader.onload = function(e) {
-		console.log(e.target.result);
+		console.log("Blob content: "+e.target.result);
 	};
 	reader.readAsText(kudoBlob);
 }).catch(function(error) {
