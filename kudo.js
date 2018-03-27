@@ -1,5 +1,5 @@
 repo="tpepper/kudos-badge"
-commit="8da5ea2a04664db616b115511403b71570341f74"
+commit="5bba5d67128e73319deb564144fb1a861697bd24"
 url="https://api.github.com/repos/"+repo+"/commits/"+commit
 
 fetch(url, {
@@ -8,10 +8,18 @@ fetch(url, {
 .then(function(response) {
 	return response.json();
 }).then(function(json) {
-	kudoJSON = JSON.stringify(json);
-	console.log("full json is: "+kudoJSON);
-	console.log("commit message is: "+json.commit["message"]);
-	document.getElementById('kudo').innerHTML = json.commit.message;
+	kudoMsg = json.commit.message;
+	console.log(kudoMsg);
+
+	kudoMsg = kudoMsg.replace('^.*\n\n', '');
+	obj = JSON.parse(kudoMsg);
+	console.log("commit msg jsonified: "+obj);
+
+	document.getElementById('kudo').innerHTML = kudoMsg;
+	document.getElementById('kudo').innerHTML += "<BR>";
+	document.getElementById('kudo').innerHTML += obj;
+	document.getElementById('kudo').innerHTML += "<BR>";
+	document.getElementById('kudo').innerHTML += "<img src=" + obj.icon + "/>";
 }).catch(function(error) {
 	console.log(error);
 	return "could not find kudo commit at "+url;
