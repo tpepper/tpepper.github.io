@@ -11,6 +11,7 @@ fetch(url, {
 .then(function(kudoBlob) {
 	var div = document.createElement("div");
 	var kudoText = document.createTextNode(kudoBlob);
+	console.log(kudeText);
 	div.appendChild(kudoText);
 	document.appendChild(div);
 }).catch(function(error) {
