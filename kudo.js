@@ -6,13 +6,13 @@ fetch(url, {
 	mode: 'no-cors'
 })
 .then(function(response) {
-	if(response.bodyUsed) {
-		kudo = response.text();
-		console.log(kudo);
-		return kudo;
-	} else {
-		console.log("body not used");
-	}
+	return response.blob();
+})
+.then(function(kudoBlob) {
+	var div = document.createElement("div");
+	var kudoText = document.createTextNode(kudoBlob);
+	div.appendChild(kudoText);
+	document.appendChild(div);
 }).catch(function(error) {
 	console.log(error);
 	return "could not find kudo commit at "+url;
