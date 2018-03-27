@@ -19,7 +19,7 @@ fetch(url, {
 	document.getElementById('kudo').innerHTML += "<BR>";
 	document.getElementById('kudo').innerHTML += obj;
 	document.getElementById('kudo').innerHTML += "<BR>";
-	document.getElementById('kudo').innerHTML += "<img src=\"" + obj.icon + "\"/>";
+	document.getElementById('kudo').innerHTML += "<img src=\"" + obj.Icon + "\"/>";
 }).catch(function(error) {
 	console.log(error);
 	return "could not find kudo commit at "+url;
