@@ -1,0 +1,57 @@
+Timothy Charles Pepper                                  tpepper at gmail.com
+____________________________________________________________________________
+
+OBJECTIVE:  Permanent Full-time Open Source Leadership Position
+
+WORK EXPERIENCE:
+
+   VMware (Home Office, Remote)                           Principal Engineer
+   Open Source Program Office                               (8/2017-present)
+   - Consulting on product teams' open source strategies, tactics, growth,
+     and support plans across multiple technology areas and business units
+   - Proposals/plans for next long term innovation investment domains
+   - Led team establishing employee Open Source Guidelines documentation
+   - Participant in M&A and Legal due diligence for open source topics
+   - Led early company engagements in cloud native open source, Kubernetes
+     project (rel. team, SIG/WG lead, elected to CoC and Steering Cmte.'s)
+   - Regular open source industry conference speaking (earned content)
+   - VMware-internal and public mentoring for teams and individuals on
+     career, open source, and technical topics
+
+   Intel (Hillsboro, OR)                            Senior Software Engineer
+   Opensource Technology Center                              (6/2012-7/2017)
+   - Founding member Cloud Integrated Advanced Orchestrator project
+   - Linux and Android OS Research & Development
+      o ClearLinux Project: architect, software update lead
+      o Intel Reference Design for Android (IRDA): software update team lead
+      o Haswell-ULT power-on and performance analysis, kernel maintainer
+      o Co-developed highly optimized software update client/server system
+
+   IBM (Beaverton, OR; San Jose, CA)              Advisory Software Engineer
+   Linux Technology Center                                   (4/2001-6/2012)
+   - Linux base kernel, OS, embedded development
+      o Memory management, NUMA, storage, HPC research/dev/support tasks
+      o multi-arch hardware support (x86_64, PPC, s390, ia64, ARM),
+        performance analysis, debugging of customer issues
+      o liaison between IBM-internal groups and open source communities
+   - Intellectual Property reviews, compliance and infringement mitigation
+   - Corp. sponsored mini-MBA program participant
+
+   Zelerate, Inc. (San Mateo, CA)                            (8/2000-4/2001)
+   Linux System Administrator
+
+   IBM (San Jose, CA)                                        (6/1995-8/2000)
+   Department IT Staff / Intern
+   - Developed custom Laboratory Information Management System (LIMS)
+   - Performed technical analysis on returned hard drives
+
+   NASA (Edwards AFB, CA)                                (Summer 1992, 1993)
+   Summer High School Apprenticeship Research Program
+
+EDUCATION:  M.S. Computer Science, Portland State University, 2010
+            B.S. Comp. Engineering, Cal Poly San Luis Obispo, 1999
+            Study Abroad 1995-1996 Universität Heidelberg, Germany
+
+OTHER:      Board Member, Beaverton Farmers Market
+            German language writing and speaking proficiency
+            12 granted patents
