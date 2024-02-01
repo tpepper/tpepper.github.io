@@ -6,7 +6,7 @@ OBJECTIVE:  Permanent Full-time Open Source Leadership Position
 WORK EXPERIENCE:
 
    VMware (Home Office, Remote)                           Principal Engineer
-   Open Source Program Office                               (8/2017-present)
+   Open Source Program Office                                (8/2017-1/2024)
    - Consulting on product teams' open source strategies, tactics, growth,
      and support plans across multiple technology areas and business units
    - Proposals/plans for next long term innovation investment domains
