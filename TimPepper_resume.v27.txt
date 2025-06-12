@@ -5,6 +5,23 @@ OBJECTIVE:  Permanent Full-time Open Source Leadership Position
 
 WORK EXPERIENCE:
 
+   Cybersecurity and Infrastructure Security       Senior Technical Advisor,
+   Agency, CISA (Home Office, Remote)          Open Source Software Security
+   Security at Scale                                         (6/2024-2/2025)
+   - Leading development of recommendations to federal civilian executive
+     branch agencies and state, local, tribal, and territorial stakeholders
+     on safe and secure usage and responsible contribution patterns for
+     open source software
+   - Advocating adoption of Open Source Program Office concepts from
+     private industry including actively contributing to hardening the
+     open source software ecosystem
+   - Providing technical subject matter expertise to contractors
+     implementing software inventory tooling improvements for assessing
+     OSS trustworthiness and prevalence
+   - Tracking emerging OSS regulatory policies around the globe to
+     ensure US policy and rule makers are appropriately informed of
+     developments
+
    VMware (Home Office, Remote)                           Principal Engineer
    Open Source Program Office                                (8/2017-1/2024)
    - Consulting on product teams' open source strategies, tactics, growth,
